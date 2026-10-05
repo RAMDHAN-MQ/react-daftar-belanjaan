@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-color: aliceblue;
+  text-align: center;
+  height: 100vh;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  background-color: green;
+  color: white;
+}
+
+nav {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+nav select,
+nav form input,
+nav form button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  border: 0;
+}
+
+nav select {
+  background-color: inherit;
+  border-bottom: 5px solid green;
+}
+
+nav form input {
+  background-color: white;
+  padding-left: 20px;
+  box-shadow: 2px 2px rgb(198, 198, 198);
+}
+
+nav form input:nth-child(1) {
+  height: 50px;
+  width: 100px;
+  text-align: center;
+}
+
+nav form button {
+  background-color: green;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 3px rgb(0, 97, 0);
+  cursor: pointer;
+}
+
+nav form button:active {
+  transform: translateY(3px);
+  box-shadow: 0px 0px;
+}
+
+nav .btn-bersihkan {
+  background-color: red;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: large;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 3px rgb(0, 97, 0);
+  cursor: pointer;
+}
+
+nav .btn-bersihkan:active {
+  transform: translateY(3px);
+  box-shadow: 0px 0px;
+}
+
+main {
+  height: 500px;
+  max-height: 500px;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+}
+
+main ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  width: 800px;
+
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(198, 198, 198);
+}
+
+main ul li input {
+  width: 30px;
+  height: 30px;
+}
+
+main ul li button {
+  background-color: red;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  box-shadow: 2px 3px rgb(165, 1, 1);
+}
+
+main ul li button:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
