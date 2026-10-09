@@ -1,6 +1,6 @@
 # Daftar Belanjaku
 
-Sistem pencatatan belanja sederhana menggunakan react.
+Sistem pencatatan belanja sederhana menggunakan React + Vite.
 Project sebagai latihan saja.
 
 # Fitur
